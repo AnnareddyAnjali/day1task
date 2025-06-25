@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.suggestions-wrapper {
+  font-family: 'Arial', sans-serif;
+  background-color: #fbf7f7;
+  
+}
+    
+.header-curve {
+  background: linear-gradient(to right, #1563b2, #900f8c);
+  padding: 20px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #ffffff;
+  text-align: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.header-curve h3 {
+
+  margin: 0px;
+  padding-bottom: 35px;
+  font-size: 20px;
+  font-family: sans-serif;
+  top: -5px;
+}
+
+
+.content-section {
+  margin-top: -45px;
+  background: rgb(255, 253, 253);
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 350px;
+  margin-bottom: 30px;
+  box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.358);
+  background-color: #FFFFFF;
+  padding: 10px ;
+  border-radius: 10px;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #a51515;
+  padding-bottom: px;
+  border-bottom: px solid transparent;
+  cursor: pointer;
+  background-color: #0b6db4;
+}
+
+.tabs button.active {
+  border-bottom: 2px solid hsl(0, 2%, 81%);
+  background-color: white;
+  color: #e3dcdc;
+}
+
+.suggestion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.suggestion-card {
+  background: #ffffffff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.358);
+  padding: 5px 10px;
+  border-radius: 12px;
+  /* box-shadow: 0 0 5px rgba(158, 27, 27, 0.08); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar-placeholder {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #d9d9d9;
+}
+
+.user-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-role {
+  margin: 0;
+  font-size: 13px;
+  color: #737171;
+}
+
+.follow-button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #f4f1f1;
+  cursor: pointer;
+  background: linear-gradient(to right, #721d71, #0177b6);
+}
+
+.follow-button.unfollow {
+  background: #e1d8d8;
+  background: linear-gradient(to right, #721d71, #0177b6);
+}
+
+.tabs button.active {
+  background-color: rgb(105, 40, 40);
+  color: rgb(226, 219, 219);
+}
