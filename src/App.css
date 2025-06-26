@@ -20,7 +20,7 @@
 }
 
 #container {
-  background: linear-gradient(to right, #1563b2, #992097);
+  background: linear-gradient(to right, #0077bf, #6f42c1);
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
 }
@@ -55,7 +55,7 @@
 }
 
 #btnContainer>button:first-child {
-    background-image: linear-gradient(45deg,#0077b6, #782788);
+    background-image: linear-gradient(45deg,#0077bf, #7f1985);
     padding: 15px;
     padding-left: 0px;
     color: white;
